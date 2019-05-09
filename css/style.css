@@ -1,0 +1,167 @@
+#titre_nos_marques{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 10%;
+    
+  }
+
+.intro-lead-in{
+    font-size : 1.5em !important;
+}
+
+#homme .homme-item {
+    right: 0;
+    margin: 0 0 15px;
+  }
+  
+  #homme .homme-item .homme-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  #homme .homme-item .homme-link .homme-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(254, 209, 54, 0.9);
+  }
+  
+  #homme .homme-item .homme-link .homme-hover:hover {
+    opacity: 1;
+  }
+  
+  #homme .homme-item .homme-link .homme-hover .homme-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+  }
+  
+  #homme .homme-item .homme-link .homme-hover .homme-hover-content i {
+    margin-top: -12px;
+  }
+  
+  #homme .homme-item .homme-link .homme-hover .homme-hover-content h3,
+  #homme .homme-item .homme-link .homme-hover .homme-hover-content h4 {
+    margin: 0;
+  }
+  
+  #homme .homme-item .homme-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #homme .homme-item .homme-caption h4 {
+    margin: 0;
+    text-transform: none;
+  }
+  
+  #homme .homme-item .homme-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  #homme * {
+    z-index: 2;
+  }
+  
+  @media (min-width: 767px) {
+    #homme .homme-item {
+      margin: 0 0 30px;
+    }
+  }
+  
+  .homme-modal {
+    padding-right: 0px !important;
+  }
+  
+  .homme-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+  
+  .homme-modal .modal-content {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .homme-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+  
+  .homme-modal .modal-content p {
+    margin-bottom: 30px;
+  }
+  
+  .homme-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  .homme-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .homme-modal .modal-content img {
+    margin-bottom: 30px;
+  }
+  
+  .homme-modal .modal-content button {
+    cursor: pointer;
+  }
+  
+  .homme-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .homme-modal .close-modal:hover {
+    opacity: 0.3;
+  }
+  
+  .homme-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #212529;
+  }
+  
+  .homme-modal .close-modal .lr .rl {
+    /* Safari and Chrome */
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #212529;
+  }
