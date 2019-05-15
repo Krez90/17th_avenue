@@ -166,10 +166,25 @@
   }
 
   .piece{
-    background: url(../img/logos/piece.png) center center no-repeat;
+    background: url(../img/logos/interieur.png) center center no-repeat;
     height: 250px;
+  }
+
+  .look{
+    background: url(../img/logos/look.png) center center no-repeat;
+    height: 250px;
+  }
+
+  .magasin{
+    background: url(../img/logos/vitrine.png) center center no-repeat;
+    height: 250px;
+
   }
 
   .service-heading{
     color:rgba(254, 209, 54, 0.9);
+  }
+
+  .lulu{
+    padding-bottom: 20%;
   }
