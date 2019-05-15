@@ -1,8 +1,7 @@
 #titre_nos_marques{
     text-align: center;
     font-size: 100px;
-    margin-bottom: 10%;
-    
+    margin-bottom: 5%;
   }
 
 .intro-lead-in{
@@ -164,4 +163,13 @@
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     background-color: #212529;
+  }
+
+  .piece{
+    background: url(../img/logos/piece.png) center center no-repeat;
+    height: 250px;
+  }
+
+  .service-heading{
+    color:rgba(254, 209, 54, 0.9);
   }
