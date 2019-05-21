@@ -28,7 +28,7 @@
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: #fed136;
   }
   
   #homme .homme-item .homme-link .homme-hover:hover {
@@ -166,17 +166,20 @@
   }
 
   .piece{
-    background: url(../img/logos/interieur.png) center center no-repeat;
+    margin: auto;
+    
     height: 250px;
-  }
+  } 
 
   .look{
-    background: url(../img/logos/look.png) center center no-repeat;
+    margin: auto;
+    
     height: 250px;
   }
 
   .magasin{
-    background: url(../img/logos/vitrine.png) center center no-repeat;
+    margin: auto;
+    
     height: 250px;
 
   }
