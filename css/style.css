@@ -1,3 +1,39 @@
+.button_phone{
+  width:40px;
+  height:40px;
+  position: fixed;
+  right: 0;
+  top: 20%;
+  margin-top: -2.5em;
+  z-index: 6;
+}
+
+@media (min-width: 415px){
+  .button_phone{
+    display: none;
+  }
+}
+
+.screen{
+  background-color: #000;
+  position: relative;
+  left: 5px;
+  top: 9px;
+  width: 40px;
+  height: 40px;
+  background:-moz-linear-gradient(50% 49% 135deg, #28353D, #3C4951 0%)
+}
+
+.button{
+  background-color: #28353D;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  left: 20px;
+  top: 14px; 
+  position: relative; 
+}
+
 #titre_nos_marques{
     text-align: center;
     font-size: 100px;
@@ -190,4 +226,8 @@
 
   .lulu{
     padding-bottom: 20%;
+  }
+
+  .google{
+    padding: 5%
   }

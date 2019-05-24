@@ -172,6 +172,13 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
+}
+
+@media(max-width: 768px){
+  header.masthead{
+    height: auto;
+  }
 }
 
 header.masthead .intro-text {
